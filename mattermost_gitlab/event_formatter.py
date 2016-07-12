@@ -83,7 +83,7 @@ class PushEvent(BaseEvent):
             self.data['ref'],
             self.data['repository']['name'],
             self.data['repository']['homepage'],
-            self.data[]
+            commits_branch_link
         )
 
 
